@@ -1,0 +1,38 @@
+.container {
+  background: rgb(150, 147, 147);
+  height: 50vh;
+  width: 50vw;
+  padding: 0em;
+  margin: 25vh auto 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  background: rgb(220, 223, 224);
+  margin: 0.03em;
+  width: 12.3vw;
+  height: 8.5vh;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3vh;
+}
+.bar {
+  color: aliceblue;
+  text-align: end;
+  font-weight: bold;
+  font-size: 5vh;
+  background-color: rgb(150, 147, 147);
+  height: 5vh;
+  width: 50vw;
+}
+.oran {
+  background-color: rgb(255, 136, 0);
+  color: aliceblue;
+}
+.zero {
+  width: 24.69vw;
+}
